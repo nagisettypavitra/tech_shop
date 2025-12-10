@@ -72,7 +72,7 @@ body {
       margin-bottom: 50px;
     }
 
-    /* Responsive image sizes */
+
     @media (max-width: 768px) {
       .carousel-item-custom:nth-child(1) img,
       .carousel-item-custom:nth-child(5) img {
@@ -132,9 +132,6 @@ body {
       .button-container {
         gap: 8px;
         padding: 0 5px;
-      }
-      .linkcolor{
-        /* color: #ea061d !important; */
       }
 
       .button-container button {
@@ -212,7 +209,6 @@ body {
       color: white;
     }
 .bgggg{
-  /* background-color: #ea061d; */
   width: 50px !important;
 
 }

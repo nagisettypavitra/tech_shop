@@ -14,10 +14,11 @@ import { Link } from "react-router-dom";
 
 const ProductDetails = () => {
 
-    const { id } = useParams(); // Get product ID from URL
-    const { data } = useContext(globalContext); // Get all products from context
+    const { id } = useParams(); 
+    const { data } = useContext(globalContext);
     const dispatch = useDispatch();
     const [activeTab, setActiveTab] = useState(null);
+
     // Sample reviews data
     const reviews = [
         {
@@ -71,15 +72,15 @@ const ProductDetails = () => {
     ];
 
 
-    // toggle function
+  
     const handleTabClick = (tab) => {
         if (activeTab === tab) {
-            setActiveTab(null); // collapse if clicked again
+            setActiveTab(null); 
         } else {
             setActiveTab(tab);
         }
     };
-    // Find the selected product
+ 
     const product = data.find((item) => item.id.toString() === id);
 
     const [mainImage, setMainImage] = useState(product?.image || "");
@@ -93,7 +94,7 @@ const ProductDetails = () => {
                 setMainImage(product.image);
             }
 
-            // ✅ filter products by category
+           
             const filtered = data.filter(
                 (p) => p.category === product.category && p.id !== product.id
             );

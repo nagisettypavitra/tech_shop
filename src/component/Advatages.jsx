@@ -1,6 +1,5 @@
 import React from "react";
 import "./Advantages.css";
-// import "./Advantages.css";
 
 const Advantages = () => {
   return (

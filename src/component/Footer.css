@@ -15,22 +15,12 @@
 
 }
 
-/* footer ul {
-  text-align: left !important;
-} */
-
 
 .footer_inputs::placeholder {
     color: white !important;
-    /* or any color you want */
     opacity: 1;
-    /* optional: ensures full visibility */
 }
 
-/* .dec {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-} */
 @media (max-width:426px) {
     .footer_first_align {
         text-align: center !important;
@@ -61,10 +51,6 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px;
-    /* text-align: center; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-
 
 }
 
@@ -89,10 +75,6 @@ footer {
         margin-left: -32px !important;
     }
 }
-
-
-
-
 
 
 #k2 {

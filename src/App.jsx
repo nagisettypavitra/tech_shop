@@ -7,7 +7,6 @@ import Cart from './pages/Cart.jsx'
 import Navigations from './navigations/Navigations.jsx'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import Advatages from './component/Advatages.jsx'
 import Advantages from './component/Advatages.jsx'
 import TechShop from './pages/AllProduct.jsx'
 import AllProductsPage from './pages/AllProduct.jsx'
@@ -15,15 +14,10 @@ const App = () => {
   return (
     <div>
       <ToastContainer position="top-right" autoClose={2000} />
-
       <Header />
-      {/* <Home/> */}
       <Navigations />
-      {/* <TechShop/> */}
-      {/* <AllProductsPage/> */}
       <Advantages/>
       <Footer />
-      {/* <Cart/> */}
     </div>
   )
 }

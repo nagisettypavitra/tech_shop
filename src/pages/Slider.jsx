@@ -4,14 +4,13 @@ import secondSlider from "../images/products/firsSlider.png";
 import thirdSlider from "../images/products/fourthSlider.png";
 import fourthSlider from "../images/products/thirdSlider.png";
 import sevenSlider from "../images/products/boat203-1.png";
-import "./Slider.css"; // Create a CSS file for styles
+import "./Slider.css"; 
 import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const trackRef = useRef(null);
   const [current, setCurrent] = useState(0);
 
-  // Carousel logic
   useEffect(() => {
     const track = trackRef.current;
     let items = Array.from(track.children);
@@ -19,8 +18,8 @@ const Carousel = () => {
     const interval = setInterval(() => {
       const first = items.shift();
       items.push(first);
-      track.innerHTML = ""; // Clear track
-      items.forEach(item => track.appendChild(item)); // Append reordered items
+      track.innerHTML = ""; 
+      items.forEach(item => track.appendChild(item)); 
       setCurrent(prev => (prev + 1) % items.length);
     }, 2000);
 
@@ -105,7 +104,6 @@ const Carousel = () => {
         </div>
       </div>
 
-      {/* 🔴 Dots below carousel */}
       <div className="dots-container">
         {Array.from({ length: totalSlides }).map((_, index) => (
           <span

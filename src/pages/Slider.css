@@ -1,45 +1,9 @@
 
-./* .carousel-container {
-  overflow: hidden;
-  padding: 20px;
-}
-
-.carousel-track {
-  display: flex;
-  gap: 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.carousel-item-custom {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-  min-width: 200px;
-}
-
-.product_font_carousel {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.product_font_head {
-  font-size: 18px;
-} */
 .crousel_height{
     min-height: 500px;
     height: auto;
 
 }
-/* @media (max-width:426pc){
-    .cont_first{
-        font-size: 3vw;
-    }
-    .cont_sec{
-        font-size:10px !important;
-    }
-} */
-
 
 
 body {
@@ -79,12 +43,6 @@ body {
     .carousel-item-custom:hover {
       transform: scale(1.2);
     }
-    /* .carousel-item-custom p:hover {
-      transform: scale(1.2);
-    }
-    .carousel-item-custom h4:hover {
-      transform: scale(1.2);
-    } */
 
     /* Sizes */
     .carousel-item-custom:nth-child(1) img,
@@ -192,7 +150,6 @@ body {
     .feature-card {
       display: flex;
       align-items: center;
-      /* background-color:black; */
       color:white;
       padding: 10px 15px;
       border-radius: 6px;
@@ -248,7 +205,7 @@ body {
 
     .dots-container {
   text-align: center;
-  margin-top: 60px; /* Move dots down */
+  margin-top: 60px; 
 }
 
 .dot {
@@ -262,6 +219,6 @@ body {
 }
 
 .dot.active {
-  background-color: red; /* 🔴 active color */
+  background-color: red; 
   transform: scale(1.2);
 }

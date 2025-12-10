@@ -1,4 +1,3 @@
-// import firsts from "../images/products/boat110-1.png";
 import firsts from "../images/products/fourthSlider.png";
 import second from "../images/products/jbl660nc-2.png";
 import third from "../images/products/jbl660nc-3.png";

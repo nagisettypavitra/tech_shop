@@ -148,7 +148,6 @@ body {
     .feature-card {
       display: flex;
       align-items: center;
-      /* background-color:black; */
       color:white;
       padding: 10px 15px;
       border-radius: 6px;
@@ -185,8 +184,6 @@ body {
       }
       .allprodctsdisplay{
         display: block !important;
-        /* width: 10px !important; */
-        /* height: 20px !important; */
       }
 
       .text-box .feature-title {

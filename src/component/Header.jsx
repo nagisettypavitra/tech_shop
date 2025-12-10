@@ -7,17 +7,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { globalContext } from "../myCongtext/MyContext"; // 👈 import context
+import { globalContext } from "../myCongtext/MyContext"; 
 
 const Header = () => {
-  // 🛒 Redux cart
   const cart = useSelector((state) => state.cartItems.cart);
   const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0);
 
-  // 📦 Context products
   const { data: products } = useContext(globalContext);
 
-  // UI states
   const [showModal, setShowModal] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchText, setSearchText] = useState("");
@@ -110,8 +107,6 @@ const Header = () => {
         </div>
       </nav>
 
-      {/* Search Bar */}
-      {/* Search Bar */}
       {/* Search Bar */}
       {searchOpen && (
         <div
@@ -285,3 +280,4 @@ const Header = () => {
 };
 
 export default Header;
+

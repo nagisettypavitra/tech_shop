@@ -3,15 +3,6 @@
     height: auto;
 
 }
-/* @media (max-width:426pc){
-    .cont_first{
-        font-size: 3vw;
-    }
-    .cont_sec{
-        font-size:10px !important;
-    }
-} */
-
 
 
 body {
@@ -51,12 +42,6 @@ body {
     .carousel-item-custom:hover {
       transform: scale(1.2);
     }
-    /* .carousel-item-custom p:hover {
-      transform: scale(1.2);
-    }
-    .carousel-item-custom h4:hover {
-      transform: scale(1.2);
-    } */
 
     /* Sizes */
     .carousel-item-custom:nth-child(1) img,

@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from './Crousel'
 import Slider from './Slider'
-// import TopProduct from './TopProduct'
 import TopProducts from './TopProduct'
 
 const Home = () => {
